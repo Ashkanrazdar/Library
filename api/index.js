@@ -1,5 +1,5 @@
 export const config = { runtime: "edge" };
-
+#attentiontothis
 const TARGET_BASE = (process.env.TARGET_DOMAIN || "").replace(/\/$/, "");
 
 const STRIP_HEADERS = new Set([
@@ -47,7 +47,7 @@ export default async function handler(req) {
 
     const method = req.method;
     const hasBody = method !== "GET" && method !== "HEAD";
-
+#salamchetori
     return await fetch(targetUrl, {
       method,
       headers: out,
