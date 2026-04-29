@@ -1,8 +1,8 @@
 {
-  #salamkhoobi
-  "name": "vercel-xhttp-relay",
+  "name": "edge-gateway",
   "version": "1.0.0",
-  "description": "Edge-runtime XHTTP relay for Xray/V2Ray on Vercel",
+  "description": "Minimal edge function for forwarding HTTP requests",
   "private": true,
-  "license": "MIT"
+  "license": "MIT",
+  "type": "module"
 }
